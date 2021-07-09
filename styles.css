@@ -13,13 +13,14 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 80vw;
 }
 
 .panel {
@@ -51,6 +52,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    transition: 0.7s ease-in ;
 }
 
 @media (max-width: 480px) {
